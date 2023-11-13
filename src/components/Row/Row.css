@@ -1,0 +1,54 @@
+.rowContainer{
+
+    padding: 1rem 1rem;
+    width: 100vw;
+  
+}
+.rowContainer h3{
+    font-size: 2rem;
+    padding: 0rem 1rem;
+}
+.rowCards {
+
+    height: 18rem;
+    min-width: 13rem;
+    position: relative;
+    border-radius: 1rem;
+ 
+    
+   
+    
+}
+.rows{
+    display: flex;
+    gap: 2rem;
+   
+    overflow-y:scroll;
+    align-items: center;
+    height: 300px;
+}
+.rowCards  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.cardText{
+    
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: white;
+    padding: 0rem 1rem 0rem 0rem;
+    
+   
+}
+.cardText h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.cardText p{
+font-size: .8rem;
+font-weight: normal;
+}

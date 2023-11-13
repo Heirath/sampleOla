@@ -1,0 +1,164 @@
+.secRowMain{
+    width: 100vw;
+    padding: 5rem 0rem 0rem 6rem;
+
+}
+.secContainer{
+    display: flex;
+    gap: 3rem;
+
+}
+.firstContainer{
+    width: 40%;
+    padding: 1rem;
+    
+}
+.head{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 2rem;
+}
+.head i{
+    color: rgb(65, 63, 63);
+}
+.secondContainer{
+    background-color: rgb(239, 243, 247);
+   width: 40%;
+   padding: 1rem 5rem;
+   align-items: center;justify-content:center ;
+ 
+    
+}
+.talentRow{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    font-size: .8rem;
+
+   
+}
+.talentRow img{
+height: 4rem;
+width: 4rem;
+border-radius: 50%;
+object-fit: cover;
+}
+.talentMain{
+padding: 1rem 0rem;
+    display: flex;
+    gap:0rem 8rem;
+   flex-wrap: wrap;
+   
+  
+}
+.secondContainer button{
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    background-color: green;
+    color: white;
+}
+@media (max-width: 768px) {
+    .secRowMain{
+  
+        padding:1rem;
+    
+    }
+    .secContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    
+    }
+    .firstContainer{
+        width: 80%;
+        padding: 1rem;
+        
+    }
+    .head{
+       
+        margin-top: 1rem;
+    }
+   
+    .secondContainer{
+        background-color: rgb(239, 243, 247);
+       width: 78%;
+       padding: 1rem 1rem;
+     
+     
+        align-items: center;
+    }
+  
+    .talentMain{
+    padding: 1rem 0rem;
+        display: flex;
+        gap:0rem 6rem;
+       flex-wrap: wrap;
+       
+      
+    }
+    .secondContainer button{
+        margin-left: 8rem;
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        background-color: green;
+        color: white;
+    }
+}
+@media (max-width: 400px) {
+    .secRowMain h1{
+        font-size: 1.1rem;
+      
+    }
+    .secRowMain p{
+        font-size: .8rem;
+      
+    }
+    .secRowMain{
+        
+      width: 100vw;
+        padding: rem 0rem 0rem 0rem;
+        align-items: center;
+        text-align: center;
+    
+    }
+   
+    .firstContainer{
+        width: 100vw;
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+        
+    }
+    h5{
+        font-size: 1rem;
+    }
+   
+   
+    .secondContainer{
+        background-color: rgb(239, 243, 247);
+       width: 100%;
+       padding: 1rem 1rem;
+     
+     
+        align-items: center;
+    }
+  
+    .talentMain{
+    padding: 1rem 0rem;
+        display: flex;
+        gap:0rem 6rem;
+       flex-wrap: wrap;
+       
+      
+    }
+    .secondContainer button{
+   
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        background-color: green;
+        color: white;
+    } 
+    }

@@ -1,0 +1,24 @@
+.footerMain{
+    background-color: grey;
+    padding: 3rem 5rem;
+}
+.footer{
+    display: flex;
+   
+   font-size: .8rem;
+    flex-direction: column;
+}
+.footer h6{
+    font-size: .8rem;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.footerPage{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
