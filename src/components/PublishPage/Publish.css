@@ -23,9 +23,28 @@ font-size: .8rem;
     padding: 1rem 1rem;
     display: flex;
     gap: 1rem;
+    overflow: scroll;
     align-items: center;
     justify-content: center;
 }
 .publishMain{
     padding: 1rem 3rem;
+    }
+    @media (max-width: 800px){
+        .publishCards{
+
+            height: 10rem;
+            width: 10rem;
+            
+        }
+       
+        .publishCards h5{
+            font-size: .7rem;
+        }
+        .publishCards p{
+        font-size: .5rem;
+        }
+       .publishMain h1{
+font-size: 1.5rem;
+       }
     }
