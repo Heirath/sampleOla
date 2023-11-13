@@ -14,18 +14,19 @@
     min-width: 13rem;
     position: relative;
     border-radius: 1rem;
- 
+
     
    
     
 }
+
 .rows{
     display: flex;
     gap: 2rem;
    
     overflow-y:scroll;
     align-items: center;
-    height: 300px;
+ 
 }
 .rowCards  img{
     height: 100%;
@@ -51,4 +52,41 @@
 .cardText p{
 font-size: .8rem;
 font-weight: normal;
+}
+@media (max-width: 400px){
+ 
+    .rowContainer h3{
+        font-size: 1.5rem;
+       
+    }
+  
+
+    .rowCards {
+   
+        height: 12rem;
+        min-width: 11rem;
+        position: relative;
+        border-radius: 1rem;
+     
+        
+       
+        
+    }
+    .rows{
+     
+        gap: 1.5rem;
+       
+      
+      
+    }
+   
+  
+    .cardText h1{
+        font-size: 1.3rem;
+        
+    }
+    .cardText p{
+    font-size: .7rem;
+   
+    }
 }

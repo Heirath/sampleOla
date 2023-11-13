@@ -51,10 +51,13 @@ function ThirdRow() {
             </div>
             <div className="thirdTextSec">
             <div className="textContainer">
+                <div className="flex">
+
                 <h2>Olapool <span>rentals.</span></h2>
                 <p>NEW</p>
-            </div>
+                </div>
             <h1>Rentals for your creative vision!</h1>
+            </div>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
             <li>Dolor sit amet consectetur adipisicing elit.</li>
             <li>Amet consectetur adipisicing elit.</li>

@@ -12,18 +12,19 @@ padding: 1rem 3rem 4rem 2rem;
   text-align: center;
     border-radius: .5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    overflow: scroll;
+  background-color: white;
   
 }
 .HighlightCard img{
     height: 70%;
     width: 100%;
     border-radius: 0rem;
+    object-fit: cover;
 }
 .HighlightCard p{
     font-size: .8rem;
 }
-.rowsContainer{
+.rowsContainer2{
     padding: 1rem 1rem 0rem;
     
 }
@@ -32,12 +33,13 @@ padding: 1rem 3rem 4rem 2rem;
     padding: 0rem 1rem;
    
 }
-.rowCards{
-height: 13rem;
+.rowCards2{
+padding: 1rem;
 align-items: center;
     display: flex;
     gap: 2rem;
     overflow: scroll;
+    flex-wrap: nowrap;
 }
 @media (max-width: 800px){
     .higlightMain{
@@ -57,7 +59,7 @@ align-items: center;
       text-align: center;
         border-radius: .5rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        overflow: scroll;
+     
         
       
     }
@@ -69,7 +71,7 @@ align-items: center;
     .HighlightCard p{
         font-size: .6em;
     }
-    .rowsContainer{
+    .rowsContainer2{
         padding: 1rem 1rem 0rem;
         
     }
@@ -78,10 +80,49 @@ align-items: center;
         padding: 0rem 1rem;
        
     }
-    .rowCards{
+    .rowCards2{
      
         display: flex;
         gap: 1rem;
     
+    }
+}
+@media (max-width: 400px){
+    .higlightMain{
+      
+    padding: 0rem;
+    
+    
+    }
+    
+    .HighlightCard{
+      
+        min-width: 8rem;
+      
+      
+    }
+    .HighlightCard img{
+        height: 70%;
+        width: 100%;
+        border-radius: 0rem;
+    }
+    .HighlightCard p{
+        font-size: .6rem;
+    }
+    .rowsContainer2{
+        padding: 0rem .5rem;
+        
+    }
+    .higlightMain h3{
+        font-size: 1.5rem;
+     
+       
+    }
+    .rowCards2{
+
+        gap: .5rem;
+        overflow: scroll;
+     
+        padding: 0rem 0rem 1rem .5rem;
     }
 }

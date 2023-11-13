@@ -48,3 +48,35 @@ font-size: .8rem;
 font-size: 1.5rem;
        }
     }
+    @media (max-width: 400px){
+        .publishCards{
+
+            
+            min-width: 10rem;
+           
+        }
+   
+        .publishCards h5{
+            font-size: .8rem;
+           
+        }
+        .publishCards p{
+        font-size: .6rem;
+        }
+        .publishPage{
+       
+            padding: 1rem 1rem;
+          
+            gap: .5rem;
+    
+           
+        }
+        .publishMain{
+            padding: 2rem .5rem;
+           
+            }
+            .publishMain h1{
+                font-size: 1.5rem;
+                padding-left: 1rem;
+            }
+    }

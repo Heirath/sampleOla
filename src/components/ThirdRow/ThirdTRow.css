@@ -36,6 +36,7 @@ position: relative;
 }
 .textContainer {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .textContainer span{
@@ -56,6 +57,10 @@ color: white;
 font-size: .7rem;
 font-weight: 100;
 color: grey;
+}
+.flex{
+    display: flex;
+    align-items: center;
 }
 .thirdTextSec button{
    
@@ -95,4 +100,34 @@ color: grey;
     .thirdTextSec h1{
       font-size: 1.5rem;
         }
+}
+@media (max-width: 400px){
+    .thirdContainer{
+        background-color: rgb(18, 18, 46);
+        width: 100vw;
+        padding: 3rem 0rem;
+        display: flex;
+       
+    }
+    .imageSec{
+        display: flex;
+     width: 100%;
+        gap:1rem 1rem;
+     
+    }
+    .textContainer h1{
+font-size: 1rem;
+    }
+
+    .textContainer p{
+        font-size: .5rem;
+        font-weight: 600;
+    }
+    .thirdTextSec{
+
+    gap: 1rem;
+   
+    }
+   
+  
 }

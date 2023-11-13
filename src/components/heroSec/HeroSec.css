@@ -59,3 +59,36 @@
 
     }
 }
+@media (max-width: 400px){
+   
+
+.text {
+    width: 90%;
+margin: auto;
+top: 20rem;
+    left: .5rem;
+
+}
+
+.text h1 {
+    font-size: 1.8rem;
+}
+
+.text p {
+    font-size: 1rem;
+    color: rgb(223, 217, 217);
+}
+
+.text input {
+    width: 100%;
+    padding: .8rem 7rem .8rem .5rem;
+   
+}
+
+.text i {
+    padding: .85rem 1rem .85rem 1rem;
+}
+
+
+
+}

@@ -62,103 +62,58 @@ padding: 1rem 0rem;
 }
 @media (max-width: 768px) {
     .secRowMain{
-  
-        padding:1rem;
+        width: 100vw;
+        padding: .5rem;
     
     }
     .secContainer{
         display: flex;
-        flex-direction: column;
         gap: 1rem;
+        flex-direction: column;
     
     }
     .firstContainer{
-        width: 80%;
-        padding: 1rem;
+        width: 90%;
+        padding: .5rem;
+        align-items: center;
+        text-align: center;
         
     }
-    .head{
-       
-        margin-top: 1rem;
+    .firstContainer h1{
+        font-size: 1.5rem;
     }
-   
+ 
     .secondContainer{
-        background-color: rgb(239, 243, 247);
-       width: 78%;
-       padding: 1rem 1rem;
-     
-     
-        align-items: center;
-    }
+       
+       width: 95%;
+       padding: 0rem;
+    ;
   
+        
+    }
+    .talentRow{
+       
+        font-size: .8rem;
+    
+       
+    }
+    .talentRow img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    }
     .talentMain{
-    padding: 1rem 0rem;
+ 
         display: flex;
-        gap:0rem 6rem;
-       flex-wrap: wrap;
+        gap:0rem 2rem;
+     
        
       
     }
     .secondContainer button{
-        margin-left: 8rem;
-        padding: 1rem 2rem;
-        border-radius: .5rem;
-        background-color: green;
-        color: white;
+        padding: 1rem 5rem;
+      
+        margin-left: 4rem;
     }
 }
-@media (max-width: 400px) {
-    .secRowMain h1{
-        font-size: 1.1rem;
-      
-    }
-    .secRowMain p{
-        font-size: .8rem;
-      
-    }
-    .secRowMain{
-        
-      width: 100vw;
-        padding: rem 0rem 0rem 0rem;
-        align-items: center;
-        text-align: center;
-    
-    }
-   
-    .firstContainer{
-        width: 100vw;
-        padding: 1rem;
-        text-align: center;
-        align-items: center;
-        
-    }
-    h5{
-        font-size: 1rem;
-    }
-   
-   
-    .secondContainer{
-        background-color: rgb(239, 243, 247);
-       width: 100%;
-       padding: 1rem 1rem;
-     
-     
-        align-items: center;
-    }
-  
-    .talentMain{
-    padding: 1rem 0rem;
-        display: flex;
-        gap:0rem 6rem;
-       flex-wrap: wrap;
-       
-      
-    }
-    .secondContainer button{
-   
-        padding: 1rem 2rem;
-        border-radius: .5rem;
-        background-color: green;
-        color: white;
-    } 
-    }

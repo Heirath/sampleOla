@@ -6,6 +6,7 @@ function Row() {
     <div>
         <div className="rowContainer">
             <h3>Services</h3>
+            <div className="rowRow">
             <div className="rows">
                 <div className="rowCards">
                     <img src="https://img.freepik.com/free-photo/medium-shot-woman-sewing-inside_23-2149007436.jpg?w=740&t=st=1699860279~exp=1699860879~hmac=4b74e54cd61fb20e48f3e1d28fc05a4741132d8391cb93a6d22a838ed6aaf228" alt="" />
@@ -93,6 +94,7 @@ function Row() {
                 </div>
                
             </div>
+        </div>
         </div>
     </div>
   )

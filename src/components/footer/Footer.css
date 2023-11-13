@@ -34,3 +34,34 @@
         font-size: .7rem;
     }
 }
+@media (max-width: 400px){
+  
+    .footerMain{
+        background-color: grey;
+        padding: 3rem .5rem;
+        align-items: center;
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+       
+       font-size: .6rem;
+    
+    }
+    .footer h6{
+        font-size: .7rem;
+    }
+    .footer ul{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .footerPage{
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
